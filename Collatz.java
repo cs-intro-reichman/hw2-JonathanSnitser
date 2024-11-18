@@ -18,7 +18,7 @@ public class Collatz {
 					System.out.print(num + ", ");
 					loopTimes++;
 				} while (num != 1);
-				System.out.println(" (" + loopTimes + ")");
+				System.out.println("  (" + loopTimes + ")");
 			}
 		} 
 		
