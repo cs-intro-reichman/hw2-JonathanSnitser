@@ -8,7 +8,6 @@ public class Collatz {
 
 				int num = i;
 				int loopTimes = 1;
-				System.out.print(num + ", ");
 				do { 
 					if (num % 2 == 0){
 						num = num / 2;
