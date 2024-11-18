@@ -4,11 +4,11 @@ public class CalcPi {
 	    int termNum = Integer.parseInt(args[0]);
 		double sum = 1.0;
 		double devider = 3;
-		double plusOtMinus = -1;
+		double plusOrMinus = -1;
 		for (int i=0; i < termNum; i++) {
-			sum = sum + (1 /devider * plusOtMinus);
+			sum = sum + (1 / devider * plusOrMinus);
 			devider = devider + 2;
-			plusOtMinus = plusOtMinus * (-1);
+			plusOrMinus = plusOrMinus * (-1);
 		}
 		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated: " + (sum * 4));
